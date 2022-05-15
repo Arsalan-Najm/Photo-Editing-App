@@ -1,2 +1,1 @@
-# Photo-Editing-App
-A photo editing app build with HTML, CSS and Js
+<h1 align="center">Demo</h1> 
