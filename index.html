@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-name">Photo Editor</h1>
+        <div class="items">
+            <div class="item">
+                <i class="fa fa-sun"></i>
+                <label for="brightness">brightness</label>       
+            </div>
+            <div class="item"> 
+                <i class="fa fa-circle-half-stroke" id="contrast"></i>
+                <label for="contrast">Contrast</label>
+             </div>
+             <div class="item">
+                <i class="fa fa-moon" id="grayscale"></i>
+                <label for="grayscale">GrayScale</label> 
+             </div>
+             <div class="item">
+                 <i class="fa fa-flask" id="blur"></i>
+                 <label for="blur">Blur</label> 
+             </div>
+             <div class="item">
+                 <i class="fa fa-wind"></i>
+                 <label for="brightness">Saturation</label>  
+             </div>
+             <div class="item">
+                 <i class="fa fa-left-right" id="flip"></i>
+                 <label for="flip">Flip</label>      
+             </div>
+             <input type="range" min="0" max="100" value="0" class="range-btn">
+             <span class="value"></span>
+        </div>
+        <div class="upload-box">
+            <label for="upload-text">Upload Photo</label>
+            <input type="file" accept=".jpg, .png" id="upload-text" class="upload">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+        </div>
+        <button type="button "class="reset-btn">Reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
